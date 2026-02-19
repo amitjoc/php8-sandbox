@@ -1,0 +1,19 @@
+{
+    "name": "amitjoc/php8-sandbox",
+    "description": "safely run, test, and experiment with PHP 8 code",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App8\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Amit Joshi",
+            "email": "amitjoc@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
