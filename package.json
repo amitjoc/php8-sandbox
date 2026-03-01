@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "changelog": "node generate-full-changelog.js",
+    "version": "npm run changelog && git add CHANGELOG.md"
+  }
+}
